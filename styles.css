@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: #1665E5;
+    color: white;
+}
+
+.container {
+    margin: 8px 32px;
+}
+
+#my-title {
+    color: rebeccapurple;
+}
+
+#log {
+    height: 150px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.mainfunc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.overview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
